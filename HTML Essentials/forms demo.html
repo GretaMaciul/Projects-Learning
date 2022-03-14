@@ -22,7 +22,7 @@
         <input id="color" type="color" name="color">
         <br>
         <label for="number">Your favourite number:</label>
-        <input id="number" type="number" placeholder="enter a number" name="num">
+        <input id="number" type="number" placeholder="enter a number" name="num" min="1" max="100" step="2">
         <br>
         <label for="time">Time you were born:</label>
         <input id="time" type="time" name="time">
@@ -45,6 +45,50 @@
         <input type="text" name="search_query">
         <button>Search Youtube</button>
     </form>
+    <br>
+    <h2>More inputs</h2>
+    <form action="/cookies">
+        <input type="checkbox" name="agree" id="agree" checked>
+        <label for="agree">I agree to Terms and Conditions</label>
+        <button>Submit</button>
+    </form>
+    <h2>Favourite animal:</h2>
+    <form action="/cookies">
+        <label for="birds">Birds</label>
+        <input type="radio" name="animals" id="birds" value="birds">
+        <br>
+        <label for="cats">Cats</label>
+        <input type="radio" name="animals" id="cats" value="cats">
+        <br>
+        <label for="dogs">Dogs</label>
+        <input type="radio" name="animals" id="dogs" value="dogs">
+        <br>
+        <button>Submit</button>
+    </form>
+    <br>
+    <form action="/pets">
+        <label for="pets">What pet would you like to adopt?</label>
+        <select name="pets" id="pets">
+            <option value="hamster">Hamster</option>
+            <option value="cat">Cat</option>
+            <option value="dog">Dog</option>
+            <option value="rabbit">Rabbit</option>
+        </select>
+        <button>Submit</button>
+    </form>
+    <p>
+    <form action="/volume">
+        <label for="volume">Volume:</label>
+        <input type="range" id="volume" name="volume" min="1" max="10">
+
+    </form>
+    </p>
+    <p>
+        <label for="details">Any additional details?</label>
+        <textarea name="details" id="details" cols="30" rows="5" placeholder="Please enter details here">
+
+        </textarea>
+    </p>
 </body>
 
 </html>
