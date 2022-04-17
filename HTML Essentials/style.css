@@ -42,11 +42,26 @@ img {
     font-style: italic;
 }
 
+#poem:hover {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 #poemh {
     background-color: white;
     text-align: center;
 }
 
+
 li {
     color: lightskyblue;
+}
+
+button {
+    background-color: pink;
+    color: blueviolet;
+}
+
+button:hover {
+    background-color: blueviolet;
+    color: pink;
 }
