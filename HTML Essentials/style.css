@@ -46,6 +46,11 @@ img {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+#poem::selection {
+    background-color: coral;
+    color: white;
+}
+
 #poemh {
     background-color: white;
     text-align: center;
@@ -64,4 +69,17 @@ button {
 button:hover {
     background-color: blueviolet;
     color: pink;
+}
+
+button:active {
+    background-color: black;
+    color: white;
+}
+
+a:active {
+    color: aquamarine;
+}
+
+a {
+    color: greenyellow;
 }
