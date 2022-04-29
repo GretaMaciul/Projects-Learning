@@ -10,6 +10,7 @@ div {
     height: 200px;
     background-color: lightskyblue;
     padding: 10px;
+    margin: 20px;
 }
 
 #one {
@@ -44,4 +45,7 @@ div {
 
 button {
     padding: 5px 30px;
+    background-color: rgb(220, 114, 239);
+    color: rgba(148, 205, 236, 0.851);
+    border-radius: 15%;
 }

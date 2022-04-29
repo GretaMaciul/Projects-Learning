@@ -9,6 +9,7 @@ h1 {
     font-family: Verdana, Arial;
 }
 
+
 h2 {
     color: rgb(150, 0, 190);
     background-color: lightpink;
@@ -19,6 +20,24 @@ p {
     text-align: left;
     font-weight: normal;
     line-height: 1.5;
+}
+
+header {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 10px;
+}
+
+
+#navi {
+    background-color: lavenderblush;
+    height: min-content;
+    width: min-content;
+    position: sticky;
+    position: -webkit-sticky;
+    left: 50%;
+    top: 10px;
+    transform: translatex(-50%);
 }
 
 nav a {
